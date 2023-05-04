@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+body{
+    direction: rtl;
+}
+.container img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.container div{
+    margin: 3px;
+    padding: 5px;
+    border: 1px solid #dbd6d6;
+}
+.container .title{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.container p{
+    color: rgb(102, 95, 95);
+    font-weight: 500
+}
+.con{
+    background-color: rgb(113, 173, 207);
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 3px;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
